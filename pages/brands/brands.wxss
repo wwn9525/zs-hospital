@@ -1,0 +1,28 @@
+/* pages/brands/brands.wxss */
+@import "../common/common.wxss";
+.gutter{
+  margin: 0 20rpx;
+}
+.brands{
+  padding:20rpx 0;
+  overflow: hidden;
+  }
+.brands-img{
+  width: 298rpx;
+  height: 194rpx;
+  margin-right: 15rpx;
+}
+.brands-content view:first-child{
+  font-size:32rpx;
+  color: #4d4d4d;
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom:16rpx;
+  margin-bottom: 16rpx;
+}
+.brands-content view:nth-child(2){
+  font-size: 28rpx;
+  line-height:42rpx;
+  color: #8a8a8a;
+  text-align: justify;
+}

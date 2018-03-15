@@ -1,0 +1,74 @@
+<!--pages/doctor/doctor.wxml-->
+<include src="../common/head.wxml"/>
+<view class='divider'></view>
+
+<view class='doctor'>
+  <image mode='center' src='images/doc-mmx.jpg' class='doc-avator' mode='widthFix'></image>
+  <view class='doc-info'>
+    <text class='b'>毛明星</text>
+    <text>主治医师</text>
+    <text>泌尿外科主治医师,从事泌尿外科工作30余年，对男性泌尿生殖疾病的诊治有深入的研究，擅长运用综合分段治疗并有独特的疗效。</text>
+  </view>
+</view>
+
+<view class='quick-nav'>
+  <view class='quick-nav-li'>
+    <button open-type='contact'>
+        <image src='images/icon1.jpg'></image>
+        <text>预约挂号</text>
+    </button>
+  </view>
+  <view class='quick-nav-li'>
+    <button open-type='contact'>
+      <image src='images/icon2.jpg' mode='widthFix'></image>
+      <text class='color_f00'>免费向医生提问</text>
+    </button>
+  </view>
+</view>
+
+<view class='divider'></view>
+<view class='doctor'>
+  <image mode='center' src='images/doc-wch.jpg' class='doc-avator' mode='widthFix'></image>
+  <view class='doc-info'>
+    <text class='b'>王传洪</text>
+    <text>从事泌尿外科临床工作20余年，具有扎实的医学理论基础和丰富的临床实践经验。擅长诊治男性泌尿生殖系统的常见病与多发病，尤其擅长利用中西医结合治疗前列腺炎治疗效果深受业内好评...详情点击</text>
+  </view>
+</view>
+<view class='quick-nav'>
+  <view class='quick-nav-li'>
+    <button open-type='contact'>
+        <image src='images/icon1.jpg'></image>
+        <text>预约挂号</text>
+    </button>
+  </view>
+  <view class='quick-nav-li'>
+    <button open-type='contact'>
+      <image src='images/icon2.jpg' mode='widthFix'></image>
+      <text class='color_f00'>免费向医生提问</text>
+    </button>
+  </view>
+</view>
+<view class='divider'></view>
+<view class='doctor'>
+  <image mode='center' src='images/doc-gwh.jpg' class='doc-avator' mode='widthFix'></image>
+  <view class='doc-info'>
+    <text class='b'>耿伟华</text>
+    <text>毕业于安徽医科大学本科，从事临床10余年，具有丰富扎实的理论知识及临床经验，对前列腺炎、性功能障碍、泌尿生殖感染等泌尿男科常见病多发病有着丰富的临床经验，擅长于男性生殖系统...详情点击</text>
+  </view>
+</view>
+<view class='quick-nav'>
+  <view class='quick-nav-li'>
+    <button open-type='contact'>
+        <image src='images/icon1.jpg'></image>
+        <text>预约挂号</text>
+    </button>
+  </view>
+  <view class='quick-nav-li'>
+    <button open-type='contact'>
+      <image src='images/icon2.jpg' mode='widthFix'></image>
+      <text class='color_f00'>免费向医生提问</text>
+    </button>
+  </view>
+</view>
+<view class='divider'></view>
+<include src="../common/foot.wxml"/>

@@ -1,0 +1,54 @@
+<view class='footer'>
+  <view class='btn-view-li1'>
+    <image class='btn1' src='/pages/index/images/footer_zslogo.jpg'></image>
+  </view>
+  <view class='btn-view-li2'>
+    <view class='btn-view_bor btn-view' bindtap='phoneCall'>
+        <image class='btn2 r' src='/pages/index/images/footer_phone.jpg'></image>
+        <text class='btn-view-text1'>24小时免费电话 :</text>
+        <text class='btn-view-text2'>400-8865-728</text>
+    </view>
+    <view class='btn-view'>
+        <button open-type='contact'>
+          <image class='btn3 r' src='/pages/index/images/footer_wx.jpg'></image>
+          <text class='btn-view-text1'>微信在线咨询 :</text>
+          <text class='btn-view-text2'>hefeizhongshan120</text>
+        </button>
+    </view>
+  </view>
+</view>
+<view class='footer_bottom mb100'>
+    <image mode='l' src='/pages/index/images/footer-ditu.jpg'></image>
+    <view class='r'>
+      <text>医院地址：</text>
+      <text>合肥市三里街凤阳路8号(全椒路与凤阳路交叉口）</text>
+    </view>
+</view>
+<view class='bottom_fixed'>
+  <view class='bottom-list'>
+      <view>
+        <navigator url='/pages/index/index' open-type='switchTab'>
+            <image mode='widthFix' class='bottom-list-img'        src='/pages/common/images/home-a.jpg'></image>
+            <text>首页</text>
+          </navigator>
+      </view>
+      <view>
+        <navigator url='/pages/doctor/doctor' open-type='switchTab'>
+          <image mode='widthFix'  class='bottom-list-img' src='/pages/common/images/doctor-a.jpg'></image>
+          <text>专业医师</text>
+         </navigator>
+      </view>
+      <view>
+        <navigator url='/pages/book/book' open-type='switchTab'>
+          <image mode='widthFix'  class='bottom-list-img' src='/pages/common/images/chat-a.jpg'></image>
+          <text>在线挂号</text>
+        </navigator>
+      </view>
+      <view>
+        <navigator url='/pages/address/address' open-type='switchTab'>
+          <image mode='widthFix'  class='bottom-list-img' src='/pages/common/images/address-a.jpg'></image>
+          <text>来院路线</text>
+        </navigator>
+      </view>
+  </view>
+</view>

@@ -1,0 +1,45 @@
+<!--pages/brands/brands.wxml-->
+<include src="../common/head.wxml"/>
+<view class='divider'></view>
+<view class='brands gutter'>
+    <image class='brands-img l' src='images/brands-1.jpg'></image>
+    <view class='brands-content'>
+        <view>我院开通合肥市城镇居民医保</view>
+        <view>我院自2017年10月1日起，合肥城镇居民医保可以在我院实行即时结算报销，为我院周边城镇居民医保患者就诊提供了便利。欢迎广大城镇居民医保患者前来咨询和就诊，我院将竭诚提供优质专业的诊疗服务。</view>
+    </view>
+</view>
+<view class='divider'></view>
+<view class='brands gutter'>
+    <image class='brands-img l' src='images/brands-2.jpg'></image>
+    <view class='brands-content'>
+        <view>第二届不孕不育高峰论坛圆满成功</view>
+        <view>合肥中山医院于4月15日特举办第二届不孕不育高峰论坛，此次论坛以“创造生命 乐享和谐”为主题，以“关爱不育家庭，促进社会和谐”为宗旨，聚焦不孕不育，搭建沟通交流平台，通过专家演讲、学者发言等形式解读不孕不育现状以及诊疗技术发展，并以此次论坛为契机，为广大不孕不育患者提供更加先进的诊疗技术，提高基层医疗机构技术水平，共同促进家庭幸福社会和谐。</view>
+    </view>
+</view>
+<view class='divider'></view>
+<view class='brands gutter'>
+    <image class='brands-img l' src='images/brands-3.jpg'></image>
+    <view class='brands-content'>
+        <view>合肥中山医院荣誉诚信医院 实至名归</view>
+        <view>自2011年被中国医院协会评为“全国诚信民营医院”以来，今年我院再次荣登“2016全国诚信民营医院”榜单。</view>
+    </view>
+</view>
+<view class='divider'></view>
+<view class='brands gutter'>
+    <image class='brands-img l' src='images/brands-4.jpg'></image>
+    <view class='brands-content'>
+        <view>合肥中山医院“健康红杜鹃”</view>
+        <view>合肥中山医院“健康红杜鹃“女性健康公益体检活动持续进行着，即便是医院工作再怎么繁忙，我院都不曾中断过这项公益活动，八月更是连续开展两场，分别走进寿县的小甸镇和保义镇。</view>
+    </view>
+</view>
+<view class='divider'></view>
+<view class='brands gutter'>
+    <image class='brands-img l' src='images/brands-5.jpg'></image>
+    <view class='brands-content'>
+        <view>专车免费接产妇 母婴安全更放心</view>
+        <view>合肥中山医院为了更好为产妇服务，特开通了24小时免费接产妇分娩服务，即日起，只要产妇有临产征兆即将分娩时，可迅速拨打有专人24小时值班的专线电话：177-1818-3386，中山医院将及时出动专业的医护人员和配套齐全的救护车，免费接产妇到院分娩。</view>
+    </view>
+</view>
+<view class='divider'></view>
+<include src="../common/bottom_fixed.wxml"/>
+

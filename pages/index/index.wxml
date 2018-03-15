@@ -1,0 +1,176 @@
+<!--index.wxml-->
+<swiper class='banner' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" vertical="{{vertical}}">
+  <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode="widthFix"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='divider'></view>
+<view class='quick-nav'>
+  <view class='quick-nav-li'>
+    <button open-type='contact'>
+    <view class='l'>
+      <view class='main'>快速问诊</view>
+      <view class='sub'>足不出户 咨询专家</view>
+    </view>
+    <view class='r'>
+      <image src='images/index-icon1.jpg' mode='widthFix'></image>
+    </view>
+    </button>
+  </view>
+  <view class='quick-nav-li'>
+    <navigator url='/pages/book/book' open-type='switchTab'>
+    <view class='l'>
+      <view class='main'>预约挂号</view>
+      <view class='sub'>无需排队 免费挂号</view>
+    </view>
+    <view class='r'>
+      <image src='images/index-icon2.jpg' mode='widthFix'></image>
+    </view>
+    </navigator>
+  </view>  
+</view>
+<view class='quick-nav'>
+  <view class='quick-nav-li'>
+    <navigator url='/pages/brands/brands' >
+      <view class='l'>
+        <view class='main'>医院品牌</view>
+        <view class='sub'>医院概括 全面了解</view>
+      </view>
+      <view class='r'>
+        <image src='images/index-icon3.jpg' mode='widthFix'></image>
+      </view>
+    </navigator>
+  </view>
+  <view class='quick-nav-li'>
+    <navigator url='/pages/address/address' open-type='switchTab'>
+    <view class='l'>
+      <view class='main'>来院路线</view>
+      <view class='sub'>熟知路线 轻松就诊</view>
+    </view>
+    <view class='r'>
+      <image src='images/index-icon4.jpg' mode='widthFix'></image>
+    </view>
+    </navigator>
+  </view>  
+</view>
+<view class='divider'></view>
+<view class='telephone' bindtap='phoneCall'>
+  <image mode='center' class='tel-icon' src='images/tel-icon.jpg'></image>
+  <view class='tel-text'>
+    <text>一键拨打电话</text>
+    <text>400-8865-728</text>
+  </view>
+  <view class='tel-call'><text>免费拨打</text></view>
+</view>
+<view class='divider'></view>
+<view class='index_tl_all'> 
+  <button open-type='contact'>
+    <image class='index_tl' src='images/index_tl.jpg' mode='widthFix'></image>
+  </button>
+</view>
+<view class='divider'></view>
+<view class='dis-list'>
+  <view>
+    <button open-type='contact'>
+      <image mode='widthFix' src='images/dis-icon1.jpg'></image>
+      <text>包茎包皮</text>
+    </button>
+  </view>
+  <view>
+    <button open-type='contact'>
+      <image mode='widthFix' src='images/dis-icon2.jpg'></image>
+      <text>阳痿早泄</text>
+    </button>
+  </view>
+  <view>
+    <button open-type='contact'>
+      <image mode='widthFix' src='images/dis-icon3.jpg'></image>
+      <text>生殖感染</text>
+    </button>
+  </view>
+  <view>
+    <button open-type='contact'>
+      <image mode='widthFix' src='images/dis-icon4.jpg'></image>
+      <text>前列腺疾病</text>
+    </button>
+  </view>
+</view>
+<view class='dis-list'>
+  <view>
+    <button open-type='contact'>
+      <image mode='widthFix' src='images/dis-icon5.jpg'></image>
+      <text>学生包皮</text>
+    </button>
+  </view>
+  <view>
+    <button open-type='contact'>
+      <image mode='widthFix' src='images/dis-icon6.jpg'></image>
+      <text>性功能障碍</text>
+    </button>
+  </view>
+  <view>
+    <button open-type='contact'>
+      <image mode='widthFix' src='images/dis-icon7.jpg'></image>
+      <text>性疾病</text>
+    </button>
+  </view>
+  <view>
+    <button open-type='contact'>
+      <image mode='widthFix' src='images/dis-icon8.jpg'></image>
+      <text>男科检查</text>
+    </button>
+  </view>
+</view>
+
+<view class='divider'></view>
+<swiper class='banner' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" vertical="{{vertical}}">
+  <block wx:for="{{docImgUrls}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode="widthFix"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='btn-icon'>
+    <view class='btn-icon-li' bindtap='phoneCall'>
+      <image class='btn' src='images/btn-icon-wz.jpg'></image>
+    </view>
+    <view class='btn-icon-li'>
+      <button open-type='contact'>
+        <image class='btn' src='images/btn-icon-zx.jpg'></image>
+      </button>
+    </view>
+</view>
+<view class='divider'></view>
+<view class='footer'>
+  <view class='btn-view-li1'>
+    <image class='btn1' src='images/footer_zslogo.jpg'></image>
+  </view>
+  <view class='btn-view-li2'>
+    <view class='btn-view_bor btn-view' bindtap='phoneCall'>
+        <image class='btn2 r' src='images/footer_phone.jpg'></image>
+        <text class='btn-view-text1'>24小时免费电话 :</text>
+        <text class='btn-view-text2'>400-8865-728</text>
+    </view>
+    <view class='btn-view'>
+        <button open-type='contact'>
+          <image class='btn3 r' src='images/footer_wx.jpg'></image>
+          <view class='l'>
+             <text class='btn-view-text1'>微信在线咨询 :</text>
+             <text class='btn-view-text2'>hefeizhongshan120</text>
+          </view>
+         
+        </button>
+    </view>
+  </view>
+</view>
+<view class='footer_bottom'>
+    <image mode='l' src='images/footer-ditu.jpg'></image>
+    <view class='r'>
+      <text>医院地址：</text>
+      <text>合肥市三里街凤阳路8号(全椒路与凤阳路交叉口）</text>
+    </view>
+</view>

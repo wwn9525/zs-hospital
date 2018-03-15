@@ -1,0 +1,26 @@
+<view class='footer'>
+  <view class='btn-view-li1'>
+    <image class='btn1' src='/pages/index/images/footer_zslogo.jpg'></image>
+  </view>
+  <view class='btn-view-li2'>
+    <view class='btn-view_bor btn-view' bindtap='phoneCall'>
+        <image class='btn2 r' src='/pages/index/images/footer_phone.jpg'></image>
+        <text class='btn-view-text1'>24小时免费电话 :</text>
+        <text class='btn-view-text2'>400-8865-728</text>
+    </view>
+    <view class='btn-view'>
+        <button open-type='contact'>
+          <image class='btn3 r' src='/pages/index/images/footer_wx.jpg'></image>
+          <text class='btn-view-text1'>微信在线咨询 :</text>
+          <text class='btn-view-text2'>hefeizhongshan120</text>
+        </button>
+    </view>
+  </view>
+</view>
+<view class='footer_bottom'>
+    <image mode='l' src='/pages/index/images/footer-ditu.jpg'></image>
+    <view class='r'>
+      <text>医院地址：</text>
+      <text>合肥市三里街凤阳路8号(全椒路与凤阳路交叉口）</text>
+    </view>
+</view>

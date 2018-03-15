@@ -1,0 +1,52 @@
+<include src="../common/head.wxml"/>
+<view class='title'>快速预约挂号通道：</view>
+
+<form bindsubmit='submitForm' report-submit='true'>
+  <view class="form-cell">
+    <view class="form-cell-hd">
+      <view class="label">您的姓名：</view>
+    </view>
+    <view class="form-cell-bd">
+      <input class="input" type="text" placeholder='请输入您的姓名' value="{{formData.name}}" name="name"></input>
+    </view>
+  </view>
+
+  <view class="form-cell">
+    <view class="form-cell-hd">
+      <view class="label">您的电话：</view>
+    </view>
+    <view class="form-cell-bd">
+      <input class="input" type="number" placeholder='请输入您的手机号' value="{{formData.phone}}" name="phone"></input>
+    </view>
+  </view>
+
+  <view class="form-cell">
+    <view class="form-cell-hd">
+      <view class="label">预约日期：</view>
+    </view>
+    <view class="form-cell-bd">
+      <picker name="time" mode="date" value="{{date}}" end="2020-12-31" bindchange="bindDateChange">
+        <view class="picker">
+         {{date}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  
+  <view class="form-cell">
+    <view class="form-cell-hd">
+      <view class="label">您的需求：</view>
+    </view>
+    <view class="form-cell-bd">
+      <input class="input" type="text" value="{{formData.description}}" placeholder='简单描述您的具体需求或者症状' name="description"></input>
+    </view>
+  </view>
+
+  <view class='submit-btn'>
+    <button type="primary" size="40" formType="submit"><icon color='#ffffff' type="success" size="20"/>提交挂号</button>
+    <button type="warn" size="40" formType="reset"><icon color='#ffffff' type="clear" size="20"/>重新填写</button>
+  </view>
+</form>
+
+<view class='divider'></view>
+<include src="../common/foot.wxml"/>

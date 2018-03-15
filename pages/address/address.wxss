@@ -1,0 +1,44 @@
+/* pages/address/address.wxss */
+@import "../common/common.wxss";
+.gutter{
+  margin: 0 20rpx;
+}
+.h1{
+  margin-top: 30rpx;
+  font-size: 32rpx;
+  color: #353535;
+  font-weight: bold;
+}
+.text{
+  font-size: 28rpx;
+  color: #8a8a8a;
+  line-height: 1.6em;
+  margin-top: 18rpx;
+}
+.route-text{
+  padding-bottom: 22rpx;
+  border-bottom: 2rpx solid #f1f1f3;
+}
+.text text{
+  color: #ff1b11;
+}
+.text .span{
+  color: #353535;
+}
+map{
+  margin-top: 20rpx;
+}
+.title{
+  background: #3a8afd;
+  font-size: 32rpx;
+  padding: 24rpx 16rpx;
+  border-radius: 16rpx;
+  color: #ffffff;
+  margin-top: 20rpx;
+  display: inline-block;
+}
+.tips{
+  background: #f1f1f3;
+  padding: 28rpx;
+  margin-bottom: 30rpx;
+}

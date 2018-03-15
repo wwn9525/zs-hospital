@@ -1,0 +1,61 @@
+/* pages/book/book.wxss */
+@import "../common/common.wxss";
+.title{
+  text-align: center;
+  font-size: 32rpx;
+  background: #dddddd;
+  line-height: 80rpx;
+  text-indent: 1em;
+  color: #43967f;
+  border-left:6rpx solid #43967f; 
+  border-right:6rpx solid #43967f; 
+}
+.form-cell{
+  display: flex;
+  padding: 10rpx 20rpx;
+  border-bottom: 2rpx solid #e7e7e7;
+}
+.form-cell-hd{
+  flex: 4;
+  text-align: 
+}
+.form-cell-bd{
+  flex: 12;
+}
+.label{
+  font-size: 32rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+}
+.input{
+  font-size: 32rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+}
+.picker{
+  font-size: 32rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+}
+.submit-btn{
+  display: flex;
+  margin: 30rpx 0;
+}
+.submit-btn button{
+  position: relative;
+  height: 88rpx;
+  line-height: 88rpx;
+  padding-left:70rpx; 
+}
+.submit-btn button:first-child{
+  margin-left: 110rpx;
+}
+.submit-btn button:last-child{
+  margin-right: 110rpx;
+}
+.submit-btn button icon{
+  position: absolute;
+  margin-right: 10rpx;
+  left: 14rpx;
+  top: 20rpx;
+}

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/doctor/doctor",
+    "pages/book/book",
+    "pages/address/address",
+    "pages/brands/brands"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#008cd6",
+    "navigationBarTitleText": "合肥男科医院_合肥中山医院",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/common/images/home-i.jpg",
+        "selectedIconPath": "pages/common/images/home-a.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/doctor/doctor",
+        "iconPath": "pages/common/images/doctor-i.jpg",
+        "selectedIconPath": "pages/common/images/doctor-a.jpg",
+        "text": "专业医师"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "iconPath": "pages/common/images/chat-i.jpg",
+        "selectedIconPath": "pages/common/images/chat-a.jpg",
+        "text": "在线挂号"
+      },
+      {
+        "pagePath": "pages/address/address",
+        "iconPath": "pages/common/images/address-i.jpg",
+        "selectedIconPath": "pages/common/images/address-a.jpg",
+        "text": "来院路线"
+      }
+    ],
+    "color": "#949496",
+    "selectedColor": "#3c89fd",
+    "backgroundColor": "#ffffff"
+  }
+}
